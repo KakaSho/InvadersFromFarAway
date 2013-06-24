@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 240.460632, y: -3.359375, z: -14.1099453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca52936dc65de534cb7ff92bcf701772, type: 3}
+  m_Name: 
+  SDGUISkin: {fileID: 11400000, guid: 5745badb890804a4baf8fbdd9d76b964, type: 2}
+  profilHeros: {fileID: 2800000, guid: 39af471ae71d575438c993e4cbdc3a3a, type: 3}
+  SacDeBille: {fileID: 0}
+  HPHeros: {fileID: 2800000, guid: 30c43ab32de36f64781cdb825fdb6cd3, type: 3}
+  HPHerosMax: {fileID: 2800000, guid: 30f829391ffd825428d3c0e42e7feb92, type: 3}
+  HPHerosBonus: {fileID: 0}
+  Heros: {fileID: 0}
+  FragmentDeCoeur:
+  - {fileID: 2800000, guid: be7a170d8c1f123478f1fb58dc3cd143, type: 3}
+  - {fileID: 2800000, guid: c9c571a6b416ccf4b8fa8a7e2864b3a8, type: 3}
+  - {fileID: 2800000, guid: c879bebdf52055740b8ea60ef6a097e2, type: 3}
+  - {fileID: 2800000, guid: d7d6b29734e504948b35d4f0a2a92a9e, type: 3}
+  - {fileID: 2800000, guid: d4dc7ed6a89d83c43823d13afad4df00, type: 3}
+  Bg_Hp: {fileID: 2800000, guid: e9449b8d82105524da485ea5cfbc07bf, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
